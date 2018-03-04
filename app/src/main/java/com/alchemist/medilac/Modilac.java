@@ -5,7 +5,7 @@ import android.os.Bundle;
 import android.view.KeyEvent;
 import android.webkit.WebView;
 
-public class Medilac extends AppCompatActivity {
+public class Modilac extends AppCompatActivity {
     WebView webView;
 
     @Override
