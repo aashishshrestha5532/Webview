@@ -20,7 +20,7 @@ $(document).on('pagecreate', "[data-role='page']", function() {
 		}
 	});
 
-	var video5 = document.getElementById('video5');
+	/*var video5 = document.getElementById('video5');
 	$(document).on("click","#play-5",function(){
 		$('#video5').fadeIn();
 	    video5.play();
@@ -28,5 +28,5 @@ $(document).on('pagecreate', "[data-role='page']", function() {
 
 	video5.onended = function(){
 		$('#video5').fadeOut();
-	};
+	};*/
 });

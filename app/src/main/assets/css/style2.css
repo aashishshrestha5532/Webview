@@ -156,6 +156,7 @@ a.ui-link{
     left: 494px;
     width: 362px;
     height: 222px;
+    z-index: 99999;
 }
 
 #slide-8 a.ui-link:nth-child(2) {

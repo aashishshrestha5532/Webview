@@ -16,7 +16,8 @@ public class Modilac extends AppCompatActivity {
         webView=(WebView) findViewById(R.id.webview);
         webView.loadUrl("file:///android_asset/index.html");
         webView.getSettings().setJavaScriptEnabled(true);
-
+        webView.getSettings().setMediaPlaybackRequiresUserGesture(false);
+        webView.getSettings().setAllowFileAccess(true);
     }
 
     @Override
