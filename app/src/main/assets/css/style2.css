@@ -116,6 +116,7 @@ a.ui-link{
     left: 107px;
     width: 164px;
     height: 156px;
+    z-index: 99999;
 }
 
 #slide-6 #video2{
@@ -124,6 +125,7 @@ a.ui-link{
     left: 315px;
     width: 164px;
     height: 156px;
+    z-index: 99999;
 }
 
 #slide-6 #video3{
@@ -132,6 +134,7 @@ a.ui-link{
     left: 500px;
     width: 164px;
     height: 156px;
+    z-index: 99999;
 }
 
 #slide-6 #video4{
@@ -140,6 +143,7 @@ a.ui-link{
     left: 708px;
     width: 164px;
     height: 156px;
+    z-index: 99999;
 }
 
 #slide-7 a.ui-link:nth-child(2) {
