@@ -13,8 +13,8 @@ public class Medilac extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_medilac);
 
-         webView=(WebView) findViewById(R.id.webview);
-        webView.loadUrl("file:///android_asset/sample.html");
+        webView=(WebView) findViewById(R.id.webview);
+        webView.loadUrl("file:///android_asset/index.html");
         webView.getSettings().setJavaScriptEnabled(true);
 
     }
